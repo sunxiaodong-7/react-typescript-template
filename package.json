@@ -1,0 +1,35 @@
+{
+  "name": "ts-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunxiaodong-7/react-typescript-template.git"
+  },
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "author": "sunxiaodong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sunxiaodong-7/react-typescript-template/issues"
+  },
+  "homepage": "https://github.com/sunxiaodong-7/react-typescript-template#readme",
+  "devDependencies": {
+    "commitizen": "^4.2.2",
+    "conventional-changelog-cli": "^2.1.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^4.3.0",
+    "validate-commit-msg": "^2.14.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
