@@ -9,6 +9,6 @@ if(true) {
 
 let root = document.getElementById("root");
 
-let element = <h1 className="title">hello world</h1>
+let element = <h1 className="title">hello world，hello travis</h1>
 
 ReactDOM.render(element, root)
