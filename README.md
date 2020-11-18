@@ -103,3 +103,19 @@ cnpm i conventional-changelog-cli -D
     "changelogs": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
 }
 ```
+
+### 2. 支持ts
+
+```js
+tsc --init
+```
+
+### 3. 支持React 
+
+```js
+cnpm i react react-dom @types/react @types/react-dom react-router-dom @types/react-router-dom   -S
+cnpm i webpack webpack-cli webpack-dev-server html-webpack-plugin hoist-non-react-statics -D
+cnpm i typescript ts-loader source-map-loader -D
+cnpm i redux react-redux @types/react-redux redux-thunk  redux-logger @types/redux-logger -S
+cnpm i connected-react-router -S
+```

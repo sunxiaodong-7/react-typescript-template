@@ -1,0 +1,18 @@
+language: node_js
+node_js: 
+    - '12'
+install:
+  - npm install
+script:
+  - hexo g
+after_script:
+  - cd ./dist
+  - git init
+  - git config user.name "sunxiaodong-7"
+  - git config user.email "741175772@qq.com"
+  - git add -A
+  - git commit -m "Update documents"
+  - git push --force  "https://${GH_TOKEN}@${GH_REF}" "master:gh-pages"
+branches:
+  only:
+    - master
